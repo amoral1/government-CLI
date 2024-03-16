@@ -4,4 +4,8 @@ class Gov
         @branch = branch
         @function = function
     end
+
+    def intro
+    end
+    
 end
