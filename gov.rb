@@ -1,7 +1,8 @@
 class Gov
-    attr_accessor :name 
-    def initialize (name)
+    attr_accessor :name, :country 
+    def initialize (name, country)
         @name = name
+        @country = country
     end
 
     def intro
@@ -15,7 +16,7 @@ puts "Thank you #{self.name} from #{self.country}, please proceed with the lesso
     end
 
     def to_s
-        "#{@name} ... "
+        "#{@name} ... #{@country} "
       end
 
 end
