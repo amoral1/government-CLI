@@ -1,7 +1,7 @@
 class Gov
     attr_accessor :name 
-    def initialize (name, function)
-        @branch = name
+    def initialize (name)
+        @name = name
     end
 
     def intro
@@ -15,7 +15,7 @@ puts "Thank you #{self.name} from #{self.country}, please proceed with the lesso
     end
 
     def to_s
-        "#{body} ... #{@punchline}"
+        "#{@name} ... "
       end
 
 end
