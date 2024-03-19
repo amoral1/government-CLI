@@ -1,4 +1,5 @@
-require_relative "gov"
+require_relative "Gov"
 
 gov = Gov.new
 gov.intro
+

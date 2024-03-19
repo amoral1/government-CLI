@@ -1,8 +1,7 @@
 class Gov
-    attr_accessor :branch, :function
-    def initialize (branch, function)
-        @branch = branch
-        @function = function
+    attr_accessor :name 
+    def initialize (name, function)
+        @branch = name
     end
 
     def intro
@@ -14,5 +13,9 @@ self.country = gets.chomp.capitalize
 puts "\n"
 puts "Thank you #{self.name} from #{self.country}, please proceed with the lesson."
     end
+
+    def to_s
+        "#{body} ... #{@punchline}"
+      end
 
 end
