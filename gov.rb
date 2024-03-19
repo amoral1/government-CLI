@@ -4,10 +4,4 @@ class Gov
         @name = name
         @country = country
     end
-
-
-    def to_s
-        "#{@name} ... #{@country} "
-      end
-
 end

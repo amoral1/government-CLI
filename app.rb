@@ -1,5 +1,4 @@
-require_relative "gov"
+require_relative "script"
 
-gov = Gov.new
+gov = Branch.new
 gov.intro
-
