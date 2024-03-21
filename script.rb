@@ -44,6 +44,7 @@ def question_1
     case choice
     when 1 
       puts "Yes, that is correct."
+        question_2
     when 2 
       puts "Sorry, please try again."
 end
