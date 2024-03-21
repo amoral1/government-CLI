@@ -27,7 +27,8 @@ end
     case choice
     when 2 
   puts "Yes, that is correct."
-    else choice != 2
+        question_1
+    else 
   puts "Sorry, that is incorrect, please start over."
     end
 end
@@ -47,6 +48,19 @@ def question_1
       puts "Sorry, please try again."
 end
 
+    def question_2
+  puts "\n"
+  puts "What is the name of the elected bodies in the US that make up the Legislative branch?"
+  puts "1. United States Senate"
+  puts "2. The House of Representatives"
+  puts "3. Both 1 & 2"
+  choice = gets.chomp.to_i
+  case choice
+  when 3 
+    puts "Yes, that is correct."
+  else
+    puts "Sorry, please try again."
+end
 
 end
 end
