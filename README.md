@@ -7,5 +7,5 @@ This Ruby on Rails command-line interace (CLI) application is a test lesson on t
 1. Run ```ruby app.rb``` in the terminal
 
 
-### Testing 
-1. Run ```ruby ./tests/script_test.rb
+### Testing with Minitest
+1. Run ```ruby ./tests/script_test.rb``` in the terminal 
