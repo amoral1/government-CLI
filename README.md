@@ -1,6 +1,6 @@
 # My CLI App
 
-This Ruby on Rails command-line interace (CLI) application is a test lesson on the branches of government, and educates about their organization.
+This Ruby on Rails command-line interace (CLI) application is a test lesson on the US branches of government, and educates about their organized function.
 
 ## Usage
 
