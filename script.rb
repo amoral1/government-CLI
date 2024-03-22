@@ -10,10 +10,10 @@ def intro
     puts "\n"
     puts "Welcome to a quick lesson on American branches of Government!"
     puts "What is your name and country of origin?"
-    name = gets.chomp.capitalize 
+    @name = gets.chomp.capitalize 
     country = gets.chomp 
     puts "\n"
-    puts "Thank you #{name} from #{country}, please proceed with the lesson."
+    puts "Thank you #{@name} from #{country}, please proceed with the lesson."
 
    branches
 end
@@ -98,10 +98,10 @@ end
 def question_3
   loop do
   puts "\n"
-  puts "What is the name of the highest elected office of the Executive branch, and US government?"
+  puts "What is the name of the highest elected office of the Executive branch, and US government? (Note: The answer is case sensitive)"
   answer = gets.chomp.to_s
   if answer.include?("President")
-  puts "That is correct, #{name}, you have been refreshed on the function of US branches of government! Thank you for your time."
+  puts "That is correct, #{@name}, you have been refreshed on the function of US branches of government! Thank you for your time."
 puts "Goodbye!" 
 break
 else
