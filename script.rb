@@ -15,6 +15,9 @@ def intro
     puts "\n"
     puts "Thank you #{@name} from #{country}, please proceed with the lesson."
 
+    exit0 = gets.chomp.to_i 
+    exit if exit0 == 0
+
    branches
 end
 
@@ -101,7 +104,7 @@ def question_3
   puts "What is the name of the highest elected office of the Executive branch, and US government?"
   answer = gets.chomp.to_s
   if answer.include?("President")
-  puts "That is correct, #{name}, you have been refreshed on the function of US branches of government! Thank you for your time."
+  puts "That is correct, #{@name}, you have been refreshed on the function of US branches of government! Thank you for your time."
 puts "Goodbye!" 
 break
 else
