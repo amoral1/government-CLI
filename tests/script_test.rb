@@ -1,5 +1,9 @@
 require 'minitest/autorun'
 require './gov'
 
-class TestGov < Minitest::Test:
-    def test_capitalization
+class GovTest < Minitest::Test
+    def test_name_capitalized
+        gov = Gov.new('jane', 'USA')
+        assert_equal('Jane', gov.name)
+    end
+end

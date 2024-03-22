@@ -1,10 +1,14 @@
 class Gov
-    attr_reader :name, :country 
+
+    attr_reader :name, :country
 
     def initialize (name, country)
-        @name = name
+        self.name = name
         @country = country
     end
-    
+
+    def name=(value)
+        @name = value.capitalize
+      end
 
 end
